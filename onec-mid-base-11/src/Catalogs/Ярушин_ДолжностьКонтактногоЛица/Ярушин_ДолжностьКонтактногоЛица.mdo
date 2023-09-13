@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14c7ff9e-dc6f-4d3c-9859-627be670632a">
+  <producedTypes>
+    <objectType typeId="eec75d78-b908-4bf2-977f-222da7ab43b9" valueTypeId="7516255b-fe0c-41f6-934c-cf80c14f465a"/>
+    <refType typeId="b65203e8-4320-4236-8e4b-c1383724127e" valueTypeId="cdc976e6-e8e7-417d-b676-3db2dcab683c"/>
+    <selectionType typeId="7a01c674-0016-45e7-a137-16bf637b9f3d" valueTypeId="33ac3bab-615a-4efa-8bb3-5df8bc932007"/>
+    <listType typeId="61fba583-9d6b-47ef-bc9f-499b79e5b4a6" valueTypeId="3668ea97-b108-436e-9be4-8dc921568334"/>
+    <managerType typeId="e9656516-dbac-425f-b552-d853b05171ee" valueTypeId="bddcec19-b372-4279-aba3-b5e696cb10db"/>
+  </producedTypes>
+  <name>Ярушин_ДолжностьКонтактногоЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должность контактного лица</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Ярушин_ДолжностьКонтактногоЛица.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Ярушин_ДолжностьКонтактногоЛица.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность КЛ</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Должности КЛ</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
